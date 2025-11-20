@@ -32,10 +32,10 @@ jobs:
     run:
       docker build -t ashuapp:v1 webapp-code
       Docker images
-    with:
-      image: dockerashu/githubactions
-      tags: v1, latest
-      registry: docker.io
-      dockerfile: Dockerfile
-      username: ${{ secrets.DOCKER_USERNAME }}
-      password: ${{ secrets.DOCKER_PASSWORD }}
+    #with:
+    #  image: dockerashu/githubactions
+    #  tags: v1, latest
+    #  registry: docker.io
+    #  dockerfile: Dockerfile
+    #  username: ${{ secrets.DOCKER_USERNAME }}
+    #  password: ${{ secrets.DOCKER_PASSWORD }}
