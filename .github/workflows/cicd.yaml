@@ -57,7 +57,7 @@ jobs:
    #      modules/ec2/ansible-inventory.txt
    #      modules/ec2/ashutoshh-key.pem
 
-  i#fra-configure-job:
+  #ifra-configure-job:
    #needs: infra-provision-job
    #runs-on: ubuntu-latest
    #steps:
@@ -94,7 +94,7 @@ jobs:
    #    cd my-ansible
    #    ansible-playbook -i ../ansible-inventory.txt --private-key ../ashutoshh-key.pem playbook1.yaml
 
-  d#stroy-job-terraform:
+#dstroy-job-terraform:
    #runs-on: ubuntu-latest 
    #needs: infra-configure-job
    #steps:
